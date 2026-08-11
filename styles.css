@@ -564,6 +564,33 @@ section{ padding: 90px 0; }
 .studio-pick-cta span{ transition: transform .3s var(--ease-image); }
 .studio-pick-card:hover .studio-pick-cta span{ transform: translateX(4px); }
 
+/* ---------- coming soon / disabled cards ---------- */
+.coming-soon-badge{
+  position: absolute; top: 14px; left: 14px; z-index: 2;
+  background: rgba(34,27,22,.85);
+  color: var(--paper);
+  font-size: .68rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  padding: .4em .9em;
+  border-radius: 999px;
+}
+.card.is-disabled,
+.studio-pick-card.is-disabled{ cursor: default; }
+.card.is-disabled:hover,
+.studio-pick-card.is-disabled:hover{
+  transform: none;
+  box-shadow: none;
+  border-color: var(--line);
+}
+.card.is-disabled .photo-frame img,
+.studio-pick-card.is-disabled .photo-frame img{
+  filter: grayscale(.85) brightness(.92);
+}
+.card.is-disabled:hover .photo-frame img,
+.studio-pick-card.is-disabled:hover .photo-frame img{
+  transform: none;
+}
+.studio-pick-cta.is-disabled-cta{ color: var(--ink-45); }
+
 @media (max-width: 640px){
   .studio-picker{ grid-template-columns: 1fr; }
   .studio-pick-card{ max-width: 340px; margin: 0 auto; }
