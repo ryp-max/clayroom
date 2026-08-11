@@ -520,17 +520,15 @@ section{ padding: 90px 0; }
 
 /* ---------- studio picker ---------- */
 .studio-picker{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 254px);
   justify-content: center;
   gap: 22px;
 }
 .studio-pick-card{
   display: flex;
   flex-direction: column;
-  width: 254px;
-  flex-grow: 1;
-  max-width: 100%;
+  width: 100%;
   text-decoration: none;
   color: inherit;
   border-radius: var(--radius);
@@ -567,8 +565,8 @@ section{ padding: 90px 0; }
 .studio-pick-card:hover .studio-pick-cta span{ transform: translateX(4px); }
 
 @media (max-width: 640px){
-  .studio-picker{ justify-content: center; }
-  .studio-pick-card{ width: 100%; max-width: 340px; }
+  .studio-picker{ grid-template-columns: 1fr; }
+  .studio-pick-card{ max-width: 340px; margin: 0 auto; }
 }
 
 /* ---------- more-links pill row ---------- */
