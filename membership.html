@@ -44,18 +44,15 @@
 
 <section>
   <div class="container two-col reveal">
-    <div>
+    <div id="membership-general-mount">
       <p class="kicker">General Membership · Ceramic</p>
       <h2>Unlimited access to both SF studios.</h2>
-      <p class="lede">Includes access to both SoMa and Potrero Hill: 80+ wheels, 60+ glazes across the two studios, and 4 slab rollers. Members get dedicated shelf space and first access to "Power Hour" classes, held 6–8 times a month. Woodshop access is available once certified. 24/7 access can be added for $25/month.</p>
+      <p class="lede" id="membership-general-desc"></p>
       <table class="pricing-table">
         <thead>
           <tr><th>Term</th><th>Individual</th><th>Family</th></tr>
         </thead>
-        <tbody>
-          <tr><td>Quarterly</td><td class="num">$615</td><td class="num">$725</td></tr>
-          <tr><td>Semi-annual</td><td class="num">$1,055</td><td class="num">$1,255</td></tr>
-        </tbody>
+        <tbody id="membership-general-rows"></tbody>
       </table>
     </div>
     <div class="photo-frame ar-4-3"><img src="images/wheel-hands.jpg" alt="A member working at a pottery wheel at Clayroom" loading="lazy"></div>
@@ -67,23 +64,17 @@
     <div>
       <p class="kicker">Woodshop-only</p>
       <h2>For people who already know their way around a shop.</h2>
-      <p>Requires comfort working unassisted, the ability to mill lumber independently, and respect for a shared space. No ceramics access included.</p>
+      <p id="membership-woodshop-desc"></p>
       <table class="pricing-table">
-        <tbody>
-          <tr><td>Monthly</td><td class="num">$250</td></tr>
-          <tr><td>Quarterly</td><td class="num">$540</td></tr>
-          <tr><td>Semi-annual</td><td class="num">$900</td></tr>
-        </tbody>
+        <tbody id="membership-woodshop-rows"></tbody>
       </table>
     </div>
     <div>
       <p class="kicker">Working artist</p>
       <h2>For people producing at volume.</h2>
-      <p>Private work space and 24/7 access to the Potrero studio, plus one bisque firing and one glaze firing every month on a dedicated kiln. Three-month minimum commitment.</p>
+      <p id="membership-artist-desc"></p>
       <table class="pricing-table">
-        <tbody>
-          <tr><td>Monthly</td><td class="num">$325</td></tr>
-        </tbody>
+        <tbody id="membership-artist-rows"></tbody>
       </table>
       <div class="photo-frame ar-3-4" style="margin-top:20px; max-width:280px;"><img src="images/maker-portrait.jpg" alt="A working artist with a piece she made at Clayroom" loading="lazy"></div>
     </div>
@@ -145,5 +136,6 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="render.js"></script>
 </body>
 </html>

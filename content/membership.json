@@ -1,0 +1,23 @@
+{
+  "general": {
+    "description": "Includes access to both SoMa and Potrero Hill: 80+ wheels, 60+ glazes across the two studios, and 4 slab rollers. Members get dedicated shelf space and first access to \"Power Hour\" classes, held 6–8 times a month. Woodshop access is available once certified. 24/7 access can be added for $25/month.",
+    "rows": [
+      { "term": "Quarterly", "individual": "$615", "family": "$725" },
+      { "term": "Semi-annual", "individual": "$1,055", "family": "$1,255" }
+    ]
+  },
+  "woodshop": {
+    "description": "Requires comfort working unassisted, the ability to mill lumber independently, and respect for a shared space. No ceramics access included.",
+    "rows": [
+      { "term": "Monthly", "price": "$250" },
+      { "term": "Quarterly", "price": "$540" },
+      { "term": "Semi-annual", "price": "$900" }
+    ]
+  },
+  "workingArtist": {
+    "description": "Private work space and 24/7 access to the Potrero studio, plus one bisque firing and one glaze firing every month on a dedicated kiln. Three-month minimum commitment.",
+    "rows": [
+      { "term": "Monthly", "price": "$325" }
+    ]
+  }
+}

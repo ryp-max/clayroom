@@ -46,28 +46,7 @@
   <div class="container two-col reveal">
     <div>
       <p class="kicker">Studio directory</p>
-      <ul class="divided-list reveal">
-        <li>
-          <div><h4>SoMa</h4><p style="margin:0;color:var(--ink-70);font-size:.92rem;">375 9th Street, San Francisco</p></div>
-          <div class="meta-row" style="margin:0;">(415) 851-4846<br><a href="mailto:Soma@clayroomsf.com" class="text-link">Soma@clayroomsf.com</a></div>
-        </li>
-        <li>
-          <div><h4>Potrero Hill</h4><p style="margin:0;color:var(--ink-70);font-size:.92rem;">1431 17th Street, San Francisco</p></div>
-          <div class="meta-row" style="margin:0;">(862) 343-0144<br><a href="mailto:Potrero@clayroomsf.com" class="text-link">Potrero@clayroomsf.com</a></div>
-        </li>
-        <li>
-          <div><h4>San Mateo</h4><p style="margin:0;color:var(--ink-70);font-size:.92rem;">3050 S Delaware St, San Mateo</p></div>
-          <div class="meta-row" style="margin:0;">(650) 865-5673<br><a href="mailto:Sanmateo@clayroomsf.com" class="text-link">Sanmateo@clayroomsf.com</a></div>
-        </li>
-        <li>
-          <div><h4>Oakland Temescal</h4><p style="margin:0;color:var(--ink-70);font-size:.92rem;">4268 Broadway, Oakland</p></div>
-          <div class="meta-row" style="margin:0;">(341) 234-0162<br><a href="mailto:Oakland@clayroomsf.com" class="text-link">Oakland@clayroomsf.com</a></div>
-        </li>
-        <li>
-          <div><h4>West Oakland</h4><p style="margin:0;color:var(--ink-70);font-size:.92rem;">1723 Peralta Street, Oakland</p></div>
-          <div class="meta-row" style="margin:0;">(341) 241-5414<br><a href="mailto:Westoakland@clayroomsf.com" class="text-link">Westoakland@clayroomsf.com</a></div>
-        </li>
-      </ul>
+      <ul class="divided-list reveal" id="studio-directory-mount"></ul>
     </div>
 
     <div>
@@ -85,13 +64,7 @@
         </label>
         <label style="display:flex; flex-direction:column; gap:6px; font-size:.85rem; font-weight:600; letter-spacing:.03em;">
           Nearest studio
-          <select name="studio" style="padding:14px; border:1px solid var(--line); background:var(--white); font-family:var(--sans); font-size:1rem;">
-            <option>SoMa</option>
-            <option>Potrero Hill</option>
-            <option>San Mateo</option>
-            <option>Oakland Temescal</option>
-            <option>West Oakland</option>
-          </select>
+          <select name="studio" id="studio-select-mount" style="padding:14px; border:1px solid var(--line); background:var(--white); font-family:var(--sans); font-size:1rem;"></select>
         </label>
         <label style="display:flex; flex-direction:column; gap:6px; font-size:.85rem; font-weight:600; letter-spacing:.03em;">
           Message
@@ -145,5 +118,6 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="render.js"></script>
 </body>
 </html>

@@ -1,0 +1,61 @@
+{
+  "sixWeekCourses": [
+    {
+      "level": "Beginner",
+      "name": "Intro to Clay",
+      "description": "Covers wheel throwing, hand-building, glazing, and surface design over six weeks. It's the standard starting point for anyone new to the studio.",
+      "price": "$370",
+      "duration": "6 weeks"
+    },
+    {
+      "level": "Intermediate",
+      "name": "Next Step Wheel",
+      "description": "For students ready to advance past basic forms: sets, collaring, and more deliberate throwing technique.",
+      "price": "$370",
+      "duration": "6 weeks"
+    },
+    {
+      "level": "Intermediate",
+      "name": "Elevating Your Craft: Form Refinement",
+      "description": "A six-week focus on refining the forms you already know how to throw.",
+      "price": "$370",
+      "duration": "6 weeks"
+    },
+    {
+      "level": "Intermediate",
+      "name": "Potluck Provisions: Equinox Feast",
+      "description": "A seasonal, function-first course built around serveware for a shared table.",
+      "price": "$370",
+      "duration": "6 weeks"
+    }
+  ],
+  "shortSessions": [
+    {
+      "level": "Beginner",
+      "name": "Ceramic Jewelry",
+      "description": "Small-scale hand-building, made to be worn.",
+      "price": "$185",
+      "duration": "3 weeks",
+      "image": "images/tea-set.jpg",
+      "imageAlt": "Small glazed ceramic pieces made at Clayroom"
+    },
+    {
+      "level": "Beginner",
+      "name": "Wall Worthy: Ceramic Wall Decor",
+      "description": "Hand-built pieces designed to hang, not sit.",
+      "price": "$185",
+      "duration": "3 weeks",
+      "image": "images/glazed-bowl.jpg",
+      "imageAlt": "A glazed ceramic piece finished at Clayroom"
+    },
+    {
+      "level": "Intermediate",
+      "name": "Bottle Neck Table Lamp",
+      "description": "Throw and assemble a working lamp base.",
+      "price": "$200",
+      "duration": "3 weeks",
+      "image": "images/pendant-lamps.jpg",
+      "imageAlt": "Ceramic lamps made in a Clayroom class"
+    }
+  ]
+}

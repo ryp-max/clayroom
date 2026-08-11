@@ -44,92 +44,7 @@
 
 <section>
   <div class="container">
-    <div class="grid grid-2 reveal" style="gap:40px;">
-
-      <div class="card studio-card" style="padding:0;">
-        <div class="photo-frame ar-4-3"><img src="images/woodturning-action.jpg" alt="A student turning wood on a lathe at Clayroom SoMa" loading="lazy"></div>
-        <div style="padding:24px 32px 32px; display:flex; flex-direction:column; gap:10px;">
-          <span class="tag tag-clay">Clay &amp; Woodshop</span>
-          <h3>SoMa</h3>
-          <p>Clayroom's combined ceramics and woodworking studio, offering wheel throwing and lathe turning classes and memberships under one roof.</p>
-          <address>
-            375 9th Street, San Francisco, CA 94103<br>
-            (415) 851-4846 · <a href="mailto:Soma@clayroomsf.com" class="text-link">Soma@clayroomsf.com</a>
-          </address>
-          <p class="meta-row"><strong>Hours</strong> Mon–Sat 10am–9pm · Sun 10am–7:30pm</p>
-        </div>
-      </div>
-
-      <div class="card studio-card" style="padding:0;">
-        <div class="photo-frame ar-4-3"><img src="images/wheel-hands.jpg" alt="Hands centering clay on a pottery wheel at Clayroom Potrero Hill" loading="lazy"></div>
-        <div style="padding:24px 32px 32px; display:flex; flex-direction:column; gap:10px;">
-          <span class="tag tag-clay">Flagship · Est. 2018</span>
-          <h3>Potrero Hill</h3>
-          <p>A 7,000 sq ft neighborhood studio with 53 pottery wheels, 2 slab rollers, 2 extruders, 35 dipping glazes, a spray booth, 7 kilns, and a glaze mixing room with natural light throughout.</p>
-          <address>
-            1431 17th Street, San Francisco, CA 94107<br>
-            (862) 343-0144 · <a href="mailto:Potrero@clayroomsf.com" class="text-link">Potrero@clayroomsf.com</a>
-          </address>
-          <p class="meta-row"><strong>Hours</strong> Mon–Sat 10am–9pm · Sun 10am–7:30pm</p>
-        </div>
-      </div>
-
-      <div class="card studio-card" style="padding:0;">
-        <div class="photo-frame ar-4-3"><img src="images/sanmateo-interior.jpg" alt="Bright, window-lined interior of the Clayroom San Mateo studio" loading="lazy"></div>
-        <div style="padding:24px 32px 32px; display:flex; flex-direction:column; gap:10px;">
-          <span class="tag tag-clay">Opened 2023</span>
-          <h3>San Mateo</h3>
-          <p>A community studio in the Bay Meadows development with 17-foot floor-to-ceiling windows, giving the space natural light and an open feel while you work.</p>
-          <address>
-            3050 South Delaware Street, Suite 100, San Mateo, CA 94403<br>
-            (650) 865-5673 · <a href="mailto:Sanmateo@clayroomsf.com" class="text-link">Sanmateo@clayroomsf.com</a>
-          </address>
-          <p class="meta-row"><strong>Hours</strong> Mon–Sat 10am–9pm · Sun 10am–7:30pm</p>
-        </div>
-      </div>
-
-      <div class="card studio-card" style="padding:0;">
-        <div class="photo-frame ar-4-3"><img src="images/oakland-bench.jpg" alt="A handmade wooden bench built at Clayroom Oakland Temescal" loading="lazy"></div>
-        <div style="padding:24px 32px 32px; display:flex; flex-direction:column; gap:10px;">
-          <span class="tag tag-clay">Temescal</span>
-          <h3>Oakland Temescal</h3>
-          <p>A community-centered ceramics studio in Temescal offering classes and events for every skill level, from a first time at the wheel to advanced glaze work.</p>
-          <address>
-            4268 Broadway, Oakland, CA 94611<br>
-            (341) 234-0162 · <a href="mailto:Oakland@clayroomsf.com" class="text-link">Oakland@clayroomsf.com</a>
-          </address>
-          <p class="meta-row"><strong>Hours</strong> Mon–Sat 10am–9pm · Sun 10am–7:30pm</p>
-        </div>
-      </div>
-
-      <div class="card studio-card" style="padding:0;">
-        <div class="photo-frame ar-4-3"><img src="images/kiln.jpg" alt="A kiln in the Clayroom West Oakland studio" loading="lazy"></div>
-        <div style="padding:24px 32px 32px; display:flex; flex-direction:column; gap:10px;">
-          <span class="tag tag-clay">Member-centric</span>
-          <h3>West Oakland</h3>
-          <p>A two-story, 5,700 sq ft studio in Prescott Market offering both cone 5 mid-fire and cone 10 reduction firing under one roof.</p>
-          <address>
-            1723 Peralta Street, Oakland, CA 94607<br>
-            (341) 241-5414 · <a href="mailto:Westoakland@clayroomsf.com" class="text-link">Westoakland@clayroomsf.com</a>
-          </address>
-          <p class="meta-row"><strong>Hours</strong> Mon–Sat 10am–9pm · Sun 10am–7:30pm</p>
-        </div>
-      </div>
-
-      <div class="card studio-card is-disabled" style="padding:0;">
-        <div class="photo-frame ar-4-3">
-          <span class="coming-soon-badge">Coming Soon</span>
-          <img src="images/pendant-lamps.jpg" alt="Clayroom Hayes Valley, opening soon" loading="lazy">
-        </div>
-        <div style="padding:24px 32px 32px; display:flex; flex-direction:column; gap:10px;">
-          <span class="tag">Clay &amp; Woodshop</span>
-          <h3>Hayes Valley</h3>
-          <p>Clayroom's newest studio, combining ceramics and woodworking in the heart of Hayes Valley. Opening soon.</p>
-          <p class="meta-row">Coming soon · <a href="mailto:contact@clayroomsf.com?subject=Hayes%20Valley%20interest" class="text-link">Join the interest list</a></p>
-        </div>
-      </div>
-
-    </div>
+    <div class="grid grid-2 reveal" style="gap:40px;" id="studio-grid-mount"></div>
   </div>
 </section>
 
@@ -182,5 +97,6 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="render.js"></script>
 </body>
 </html>

@@ -46,20 +46,7 @@
   <div class="container">
     <p class="kicker">Recurring · Oakland</p>
     <h2>Monthly firings.</h2>
-    <div class="grid grid-2 reveal">
-      <div class="card">
-        <span class="tag tag-clay">Ongoing</span>
-        <h3>Monthly Raku &amp; BBQ</h3>
-        <p>A raku firing session with a barbecue built around it. Held every last Sunday of the month.</p>
-        <p class="meta-row"><strong>11:30am – 5pm</strong> · last Sunday monthly</p>
-      </div>
-      <div class="card">
-        <span class="tag tag-clay">Ongoing</span>
-        <h3>Monthly Obvara Firing</h3>
-        <p>An Eastern European technique: hot pots are dipped into a fermented mixture straight out of the kiln.</p>
-        <p class="meta-row"><strong>12pm – 4pm</strong> · first Sunday monthly</p>
-      </div>
-    </div>
+    <div class="grid grid-2 reveal" id="workshops-recurring-mount"></div>
   </div>
 </section>
 
@@ -72,64 +59,7 @@
       </div>
       <div class="photo-frame ar-3-4" style="width:160px; flex-shrink:0;"><img src="images/maker-portrait.jpg" alt="A visiting artist with a piece she made at Clayroom" loading="lazy"></div>
     </div>
-    <ul class="divided-list reveal">
-      <li>
-        <div>
-          <h3 style="margin-bottom:.2em;">3D Printed Mold Making</h3>
-          <p style="margin:0; color:var(--ink-70);">Kenny Sing bridges digital fabrication with traditional plaster mold making.</p>
-        </div>
-        <div class="meta-row" style="margin:0;">Aug 22–23 · 11am–4pm<br>SF SoMa</div>
-      </li>
-      <li>
-        <div>
-          <h3 style="margin-bottom:.2em;">Stencil Application</h3>
-          <p style="margin:0; color:var(--ink-70);">Kenny Sing balances stencil theory with hands-on application, mixing digital and analog methods.</p>
-        </div>
-        <div class="meta-row" style="margin:0;">Aug 29–30 · 11am–4pm<br>SF Potrero</div>
-      </li>
-      <li>
-        <div>
-          <h3 style="margin-bottom:.2em;">Coil and Pinch Pouring Pots</h3>
-          <p style="margin:0; color:var(--ink-70);">Kate Marotz explores the balance between form and function in functional pottery.</p>
-        </div>
-        <div class="meta-row" style="margin:0;">Sept 4–5 · SF SoMa<br>Sept 6–7 · San Mateo</div>
-      </li>
-      <li>
-        <div>
-          <h3 style="margin-bottom:.2em;">Locking Jars</h3>
-          <p style="margin:0; color:var(--ink-70);">Andrew Clark teaches three locking jar designs, from straightforward to advanced.</p>
-        </div>
-        <div class="meta-row" style="margin:0;">Sept 26–27 · 11am–5pm<br>SF Potrero</div>
-      </li>
-      <li>
-        <div>
-          <h3 style="margin-bottom:.2em;">Faceted + Altered Bowls</h3>
-          <p style="margin:0; color:var(--ink-70);">Dwayne Sackey throws and alters forms in the same motion.</p>
-        </div>
-        <div class="meta-row" style="margin:0;">Sept 26–27 · 11am–6pm<br>West Oakland</div>
-      </li>
-      <li>
-        <div>
-          <h3 style="margin-bottom:.2em;">Soda Firing</h3>
-          <p style="margin:0; color:var(--ink-70);">An off-site firing at Oribe Firing Center in San Gregorio. Open to Clayroom members only.</p>
-        </div>
-        <div class="meta-row" style="margin:0;">Oct 10 &amp; 17<br>San Gregorio (off-site)</div>
-      </li>
-      <li>
-        <div>
-          <h3 style="margin-bottom:.2em;">Wheel Throwing &amp; Surface</h3>
-          <p style="margin:0; color:var(--ink-70);">Justin Paik Reese builds composite wheel-thrown forms with geometric surface work.</p>
-        </div>
-        <div class="meta-row" style="margin:0;">Oct 21–22 · Oakland Temescal<br>Oct 24–25 · SF Potrero</div>
-      </li>
-      <li>
-        <div>
-          <h3 style="margin-bottom:.2em;">Figurative Ceramics</h3>
-          <p style="margin:0; color:var(--ink-70);">Janina Myronova covers slab building, pinching, coil building, and underglaze decoration.</p>
-        </div>
-        <div class="meta-row" style="margin:0;">Oct 23 · San Mateo<br>Oct 24–25 · SF SoMa</div>
-      </li>
-    </ul>
+    <ul class="divided-list reveal" id="workshops-upcoming-mount"></ul>
     <p class="meta-row" style="margin-top:24px;">Pricing and registration vary by session. <a href="contact.html" class="text-link">Contact the host studio</a> to sign up.</p>
   </div>
 </section>
@@ -183,5 +113,6 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="render.js"></script>
 </body>
 </html>

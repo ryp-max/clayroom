@@ -1,0 +1,48 @@
+{
+  "clayPackages": [
+    {
+      "code": "Package A",
+      "name": "Wheel-Throwing",
+      "description": "Everyone throws functional pieces at the wheel: bowls, mugs, vases. A wheel-throwing \"olympics\" and group-throwing options are included at no extra cost.",
+      "price": "$90",
+      "unit": "per person · 2 hours"
+    },
+    {
+      "code": "Package B",
+      "name": "Hand-Building",
+      "description": "Slab-built mugs, coasters, and planters, with room for the group to design freely.",
+      "price": "$90",
+      "unit": "per person · 2 hours"
+    },
+    {
+      "code": "Package C",
+      "name": "Wheel-Throwing & Hand-Building",
+      "description": "Both techniques in one session, for groups that want a mix of functional and sculptural work.",
+      "price": "$110",
+      "unit": "per person · 3 hours"
+    },
+    {
+      "code": "Package D",
+      "name": "Corporate Creativity & Connection",
+      "description": "A longer session built for teams that want to slow down and co-create together.",
+      "price": "$110",
+      "unit": "per person · 3 hours"
+    }
+  ],
+  "woodworkingPackages": [
+    {
+      "code": "Package A",
+      "name": "Serving Boards",
+      "description": "No experience required. Max 16 participants. Alcohol is restricted during this event.",
+      "price": "$110",
+      "unit": "per person · 2.5 hours"
+    },
+    {
+      "code": "Package B",
+      "name": "Muddler Making",
+      "description": "An introduction to spindle-turning fundamentals. Max 6 participants; alcohol restricted during the event.",
+      "price": "$110",
+      "unit": "per person · 3 hours"
+    }
+  ]
+}

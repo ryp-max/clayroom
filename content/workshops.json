@@ -1,0 +1,66 @@
+{
+  "recurring": [
+    {
+      "name": "Monthly Raku & BBQ",
+      "description": "A raku firing session with a barbecue built around it. Held every last Sunday of the month.",
+      "time": "11:30am – 5pm",
+      "schedule": "last Sunday monthly"
+    },
+    {
+      "name": "Monthly Obvara Firing",
+      "description": "An Eastern European technique: hot pots are dipped into a fermented mixture straight out of the kiln.",
+      "time": "12pm – 4pm",
+      "schedule": "first Sunday monthly"
+    }
+  ],
+  "upcoming": [
+    {
+      "name": "3D Printed Mold Making",
+      "description": "Kenny Sing bridges digital fabrication with traditional plaster mold making.",
+      "dates": "Aug 22–23 · 11am–4pm",
+      "location": "SF SoMa"
+    },
+    {
+      "name": "Stencil Application",
+      "description": "Kenny Sing balances stencil theory with hands-on application, mixing digital and analog methods.",
+      "dates": "Aug 29–30 · 11am–4pm",
+      "location": "SF Potrero"
+    },
+    {
+      "name": "Coil and Pinch Pouring Pots",
+      "description": "Kate Marotz explores the balance between form and function in functional pottery.",
+      "dates": "Sept 4–5 · SF SoMa",
+      "location": "Sept 6–7 · San Mateo"
+    },
+    {
+      "name": "Locking Jars",
+      "description": "Andrew Clark teaches three locking jar designs, from straightforward to advanced.",
+      "dates": "Sept 26–27 · 11am–5pm",
+      "location": "SF Potrero"
+    },
+    {
+      "name": "Faceted + Altered Bowls",
+      "description": "Dwayne Sackey throws and alters forms in the same motion.",
+      "dates": "Sept 26–27 · 11am–6pm",
+      "location": "West Oakland"
+    },
+    {
+      "name": "Soda Firing",
+      "description": "An off-site firing at Oribe Firing Center in San Gregorio. Open to Clayroom members only.",
+      "dates": "Oct 10 & 17",
+      "location": "San Gregorio (off-site)"
+    },
+    {
+      "name": "Wheel Throwing & Surface",
+      "description": "Justin Paik Reese builds composite wheel-thrown forms with geometric surface work.",
+      "dates": "Oct 21–22 · Oakland Temescal",
+      "location": "Oct 24–25 · SF Potrero"
+    },
+    {
+      "name": "Figurative Ceramics",
+      "description": "Janina Myronova covers slab building, pinching, coil building, and underglaze decoration.",
+      "dates": "Oct 23 · San Mateo",
+      "location": "Oct 24–25 · SF SoMa"
+    }
+  ]
+}

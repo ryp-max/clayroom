@@ -1,0 +1,30 @@
+{
+  "programs": [
+    {
+      "tag": "1st–4th & 5th–8th grade",
+      "name": "After School Clay",
+      "description": "Six-week sessions covering hand-building fundamentals, with themes drawn from nature, art therapy, and group collaboration. Two age cohorts.",
+      "price": "$300",
+      "unit": "6 weeks · 3:45–5:45pm",
+      "image": "images/glazed-bowl.jpg",
+      "imageAlt": "A glazed ceramic piece made in Clayroom's after-school program"
+    },
+    {
+      "tag": "Ages 11–15",
+      "name": "Woodturning",
+      "description": "A new six-week woodturning program taught by Miia Lee, introducing the lathe to younger students.",
+      "meta": "New for 2026 · 6 weeks",
+      "image": "images/woodturning-action.jpg",
+      "imageAlt": "A student learning woodturning at Clayroom"
+    },
+    {
+      "tag": "1st–4th & 5th–8th grade",
+      "name": "Summer Camp",
+      "description": "Five-day, immersive sessions covering hand-building, sculpture, and the basics of the wheel. Held at the Potrero Hill studio.",
+      "price": "$625",
+      "unit": "per session · 9am–4pm",
+      "image": "images/tea-set.jpg",
+      "imageAlt": "Ceramic pieces made at a Clayroom summer camp"
+    }
+  ]
+}
